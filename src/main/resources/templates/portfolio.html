@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Andrew Mauricio | Desenvolvedor e Construtor</title>
+    <meta name="description" content="Projetos, sistemas, APIs e experiências digitais criadas por Andrew Mauricio em Blumenau, Brasil.">
+    <meta name="theme-color" content="#020812">
+    <link rel="canonical" href="https://andrewdesigner.com.br/">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="/css/site.css">
+    <script src="/js/htmx.min.js" defer></script>
+</head>
+<body>
+<div class="ambient" aria-hidden="true"><div class="ambient-grid"></div><i></i><i></i><i></i></div>
+
+<header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Andrew Mauricio — início"><b>&lt;/&gt;</b><span>ANDREW MAURICIO</span></a>
+    <nav aria-label="Navegação principal">
+        <a href="#inicio">Sobre</a><a href="#projetos">Projetos</a><a href="#github">GitHub</a><a href="#alem">História</a><a href="#contato">Contato</a>
+    </nav>
+</header>
+
+<main>
+    <section class="hero shell" id="inicio">
+        <div class="hero-copy">
+            <h1>ANDREW MAURICIO</h1>
+            <p class="role">Desenvolvedor <i>•</i> Construtor <i>•</i> Empreendedor</p>
+            <p class="intro">Crio sistemas, produtos, APIs e experiências digitais.</p>
+            <p class="location">◆ Blumenau, Brasil</p>
+            <div class="tags"><span>Software</span><span>SaaS</span><span>APIs</span><span>Automação</span><span>Servidores</span><span>IA</span></div>
+            <div class="actions"><a class="primary" href="#projetos">Ver Projetos <b>→</b></a><a href="https://github.com/andrew-mauricio" target="_blank" rel="noreferrer">GitHub <b>◉</b></a></div>
+            <div class="stats">
+                <div><b>↗</b><span>Projetos<strong>4 em destaque</strong></span></div>
+                <div><b>◉</b><span>GitHub<strong>Ativo</strong></span></div>
+                <div><b>▤</b><span>Sistemas<strong>Online</strong></span></div>
+            </div>
+        </div>
+
+        <div class="terminal panel">
+            <div class="panel-title">Terminal <i></i></div>
+            <pre>&gt; Conectando ao propósito...
+&gt; Carregando ideias...
+&gt; Construindo soluções...
+
+<em>✓ Impacto gerado.
+✓ Sistemas online.
+✓ Pessoas transformadas.</em>
+| _</pre>
+        </div>
+
+        <div class="stack panel">
+            <div class="panel-title">Stack Principal</div>
+            <ul><li>♨ Java 25</li><li>◈ Quarkus</li><li>⌘ Qute</li><li>⚡ HTMX</li><li>▣ Docker</li><li>▤ PostgreSQL</li></ul>
+        </div>
+
+        <div class="hero-photo"><img src="/assets/photos/andrew-hero.webp" width="940" height="740" alt="Andrew Mauricio em um ambiente de restaurante"></div>
+
+        <div class="code panel">
+            <div class="panel-title">Construtor.java <i></i></div>
+            <pre><span>public class</span> Construtor &#123;
+  <b>boolean</b> paixao = <em>true</em>;
+  <b>int</b> foco = <strong>100</strong>;
+  String cafe = <em>"alto"</em>;
+
+  Impacto construir() &#123;
+    <span>return</span> criarAlgoQueImporta();
+  &#125;
+&#125;</pre>
+        </div>
+
+        <div class="activity panel"><div class="panel-title">Atividade <i></i></div><div class="bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><p>Projetos em movimento<br><strong>Agora</strong></p></div>
+    </section>
+
+    <section class="strip projects shell" id="projetos">
+        <h2>O que eu construo</h2>
+        <div class="project-grid">
+            <a class="project cheffzy" href="#contato"><b class="icon">♨</b><span><strong>Cheffzy</strong><small>SaaS e operação<br>para restaurantes</small></span><i>→</i></a>
+            <a class="project conan" href="https://github.com/andrew-mauricio/Conan-Api" target="_blank" rel="noreferrer"><b class="icon">⬡</b><span><strong>Conan API</strong><small>Framework nativo<br>de plugins server-side</small></span><i>→</i></a>
+            <a class="project mapa" href="#contato"><b class="icon">⌖</b><span><strong>MapaCore</strong><small>Motor independente<br>de mapas</small></span><i>→</i></a>
+            <a class="project flora" href="https://floranobilis.com.br" target="_blank" rel="noreferrer"><b class="icon">❀</b><span><strong>Flora Nobilis</strong><small>Tecnologia encontra<br>arte floral</small></span><i>→</i></a>
+        </div>
+    </section>
+
+    <section class="strip github shell" id="github">
+        <div class="github-heading"><h2>Ao vivo no GitHub</h2><a href="https://github.com/andrew-mauricio" target="_blank" rel="noreferrer">github.com/andrew-mauricio ↗</a></div>
+        <div id="github-repos" class="repo-grid" hx-get="/fragments/github" hx-trigger="load" hx-swap="innerHTML">
+            <div class="repo-skeleton"></div><div class="repo-skeleton"></div><div class="repo-skeleton"></div><div class="repo-skeleton"></div>
+        </div>
+        <div class="contribution panel"><span>GitHub</span><strong>Ativo</strong><div class="squares" aria-hidden="true"></div></div>
+    </section>
+
+    <section class="strip beyond shell" id="alem">
+        <div class="beyond-copy"><h2>Além do Código</h2><p>Família, criatividade,<br>negócios e tecnologia<br>moldam tudo o que<br>eu construo.</p><a href="#contato">♡ Minha base</a></div>
+        <div class="gallery" aria-label="Momentos além do código">
+            <figure><img src="/assets/photos/solo-restaurante.webp" loading="lazy" alt="Andrew em um restaurante"></figure>
+            <figure><img src="/assets/photos/familia-restaurante.webp" loading="lazy" alt="Andrew e sua esposa"></figure>
+            <figure><img src="/assets/photos/familia-praia.webp" loading="lazy" alt="Andrew, sua esposa e sua filha na praia"></figure>
+            <figure><img src="/assets/photos/casal-praia.webp" loading="lazy" alt="Andrew e sua esposa na praia"></figure>
+            <figure><img src="/assets/photos/praia-liberdade.webp" loading="lazy" alt="Andrew em um momento ao ar livre"></figure>
+            <figure><img src="/assets/photos/familia-stitch.webp" loading="lazy" alt="Andrew e sua filha em um passeio"></figure>
+        </div>
+    </section>
+
+    <section class="contact shell" id="contato"><h2>Vamos construir algo <em>incrível.</em></h2><div><a href="https://github.com/andrew-mauricio" target="_blank" rel="noreferrer">◉ GitHub</a><a href="https://github.com/andrew-mauricio?tab=repositories" target="_blank" rel="noreferrer">▣ Projetos</a></div></section>
+</main>
+
+<footer class="shell"><span>© 2026 Andrew Mauricio</span><span>Java 25 · Quarkus · Qute · HTMX</span></footer>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{#if temRepos}
+    {#for repo in repos}
+    <a class="repo" href="{repo.url}" target="_blank" rel="noreferrer">
+        <b>◉</b><span><strong>{repo.name}</strong><small>{repo.description ?: 'Projeto público no GitHub'}</small><em>{repo.language ?: 'Código'} · ★ {repo.stars} · ⑂ {repo.forks}</em></span><i></i>
+    </a>
+    {/for}
+{#else}
+    <a class="repo" href="https://github.com/{usuario}/Conan-Api" target="_blank" rel="noreferrer"><b>◉</b><span><strong>Conan-Api</strong><small>Framework principal da plataforma</small><em>GitHub</em></span></a>
+    <a class="repo" href="https://github.com/{usuario}/Conan-Api-SDK" target="_blank" rel="noreferrer"><b>◉</b><span><strong>Conan-Api-SDK</strong><small>SDK oficial para integrações</small><em>GitHub</em></span></a>
+    <a class="repo" href="https://github.com/{usuario}/Conan-Shop" target="_blank" rel="noreferrer"><b>◉</b><span><strong>Conan-Shop</strong><small>Sistema de loja e pagamentos</small><em>GitHub</em></span></a>
+    <a class="repo" href="https://github.com/{usuario}/Conan-Unlock-Engrams" target="_blank" rel="noreferrer"><b>◉</b><span><strong>Conan-Unlock-Engrams</strong><small>Desbloqueio de itens</small><em>GitHub</em></span></a>
+{/if}

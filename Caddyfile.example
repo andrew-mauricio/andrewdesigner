@@ -1,0 +1,4 @@
+andrewdesigner.com.br, www.andrewdesigner.com.br {
+    encode zstd gzip
+    reverse_proxy 127.0.0.1:8188
+}
